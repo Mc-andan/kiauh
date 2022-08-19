@@ -33,14 +33,14 @@ function set_globals() {
   #================== KLIPPER ===================#
   KLIPPY_ENV="${HOME}/klippy-env"
   KLIPPER_DIR="${HOME}/klipper"
-  KLIPPER_REPO="https://github.com/Klipper3d/klipper.git"
+  KLIPPER_REPO="http://ghproxy.com/https://github.com/Klipper3d/klipper.git"
   KLIPPER_LOGS="${HOME}/klipper_logs"
   KLIPPER_CONFIG="$(get_klipper_cfg_dir)" # default: ${HOME}/klipper_config
 
   #================= MOONRAKER ==================#
   MOONRAKER_ENV="${HOME}/moonraker-env"
   MOONRAKER_DIR="${HOME}/moonraker"
-  MOONRAKER_REPO="https://github.com/Arksine/moonraker.git"
+  MOONRAKER_REPO="http://ghproxy.com/https://github.com/Arksine/moonraker.git"
 
   #================= MAINSAIL ===================#
   MAINSAIL_DIR="${HOME}/mainsail"
@@ -55,16 +55,16 @@ function set_globals() {
   #=============== KLIPPERSCREEN ================#
   KLIPPERSCREEN_ENV="${HOME}/.KlipperScreen-env"
   KLIPPERSCREEN_DIR="${HOME}/KlipperScreen"
-  KLIPPERSCREEN_REPO="https://github.com/jordanruthe/KlipperScreen.git"
+  KLIPPERSCREEN_REPO="http://ghproxy.com/https://github.com/jordanruthe/KlipperScreen.git"
 
   #========== MOONRAKER-TELEGRAM-BOT ============#
   TELEGRAM_BOT_ENV="${HOME}/moonraker-telegram-bot-env"
   TELEGRAM_BOT_DIR="${HOME}/moonraker-telegram-bot"
-  TELEGRAM_BOT_REPO="https://github.com/nlef/moonraker-telegram-bot.git"
+  TELEGRAM_BOT_REPO="http://ghproxy.com/https://github.com/nlef/moonraker-telegram-bot.git"
 
   #=============== PRETTY-GCODE =================#
   PGC_DIR="${HOME}/pgcode"
-  PGC_REPO="https://github.com/Kragrathea/pgcode"
+  PGC_REPO="http://ghproxy.com/https://github.com/Kragrathea/pgcode"
 
   #================== NGINX =====================#
   NGINX_SA="/etc/nginx/sites-available"
@@ -73,5 +73,5 @@ function set_globals() {
 
   #=============== MOONRAKER-OBICO ================#
   MOONRAKER_OBICO_DIR="${HOME}/moonraker-obico"
-  MOONRAKER_OBICO_REPO="https://github.com/TheSpaghettiDetective/moonraker-obico.git"
+  MOONRAKER_OBICO_REPO="http://ghproxy.com/https://github.com/TheSpaghettiDetective/moonraker-obico.git"
 }
