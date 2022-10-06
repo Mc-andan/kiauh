@@ -124,7 +124,7 @@ function install_fluidd_macros() {
 }
 
 function download_fluidd_macros() {
-  local fluidd_cfg="https://raw.githubusercontent.com/fluidd-core/FluiddPI/master/src/modules/fluidd/filesystem/home/pi/klipper_config/fluidd.cfg"
+  local fluidd_cfg="http://ghproxy.com/https://raw.githubusercontent.com/fluidd-core/FluiddPI/master/src/modules/fluidd/filesystem/home/pi/klipper_config/fluidd.cfg"
   local configs path
   configs=$(find "${KLIPPER_CONFIG}" -type f -name "printer.cfg" | sort)
 
