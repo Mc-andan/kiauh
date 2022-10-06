@@ -280,7 +280,7 @@ function clone_klipper() {
 
   [[ -z ${repo} ]] && repo="${KLIPPER_REPO}"
   repo=$(echo "${repo}" | sed -r "s/^(http|https):\/\/github\.com\///i; s/\.git$//")
-  repo="http://ghproxy.com/https://github.com/${repo}"
+  ###repo="http://ghproxy.com/https://github.com/${repo}"
 
   [[ -z ${branch} ]] && branch="master"
 
